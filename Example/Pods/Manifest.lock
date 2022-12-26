@@ -1,0 +1,16 @@
+PODS:
+  - taoBaoTabBar (0.1.0)
+
+DEPENDENCIES:
+  - taoBaoTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  taoBaoTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  taoBaoTabBar: 9b8a6711a0cf03e9f6401542284c02c46e470536
+
+PODFILE CHECKSUM: 3eb69c51e1f0f81eb2d35693b0c42c618079182b
+
+COCOAPODS: 1.11.3

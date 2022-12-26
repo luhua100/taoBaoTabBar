@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2830CACB1F3AA16577B7F8C205388F88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F5D9B8FA7DF357F4919597AA8B6AC65 /* HZTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A9D0FB7C17F70D147685E01608FD6 /* HZTabBarViewController.swift */; };
+		37EAD5BC1021E415D2F11C573E28530A /* Pods-taoBaoTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C007E6B00D7A25E418C14262D3C4D06 /* Pods-taoBaoTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C85A1386A1E65098911FC0F1E1716FB /* Pods-taoBaoTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF85696E9647D41905FE485E7C1800 /* Pods-taoBaoTabBar_Tests-dummy.m */; };
+		6B175E7B6F9DB0969559F7790A894047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8071AB1D93FBB8DB0D1BE8D57589A9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		925FDB9F6975B689C27CC10F97A1A3E6 /* Pods-taoBaoTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 987F2D18381DEBB02DEE67EA8855EDC6 /* Pods-taoBaoTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BAB2F9F1ACC82D7A0B8ABAD84F648A /* taoBaoTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65A008079DCB9DAC36C6B8EC2FC10BE /* taoBaoTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B478CF61590A48908611BD675B9050C9 /* HZTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41B39AA611448C59B23E2D0CFFCB0A /* HZTabbarItem.swift */; };
+		F8BE9059AE78784E7967F5409F52CCBC /* Pods-taoBaoTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1917449868417CF8B83DAF086FC818E1 /* Pods-taoBaoTabBar_Example-dummy.m */; };
+		FABA389AFC510481547F1E3D3B329860 /* taoBaoTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ECBC9569F03AE7AD3F57C388CBBCD /* taoBaoTabBar-dummy.m */; };
+		FB969D9CB4BA107CA8D437B9B2BCD612 /* HZBaseTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FCC9B6C9B131EF86ADB1EC2D248A0 /* HZBaseTabbar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80952AC83580A0E9710A04E5C5E6B8C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AD03D368E391AAD8FFE346E18A9E34E;
+			remoteInfo = "Pods-taoBaoTabBar_Example";
+		};
+		B0A3F9E35FD35DDB02D218A16D9CA11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3717B8490A88490F84995B0BFC83880;
+			remoteInfo = taoBaoTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7E575BB26F5FDC1B510CB376DA2068 /* Pods-taoBaoTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taoBaoTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		187ECBC9569F03AE7AD3F57C388CBBCD /* taoBaoTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "taoBaoTabBar-dummy.m"; sourceTree = "<group>"; };
+		1917449868417CF8B83DAF086FC818E1 /* Pods-taoBaoTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taoBaoTabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		1C007E6B00D7A25E418C14262D3C4D06 /* Pods-taoBaoTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taoBaoTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E41B39AA611448C59B23E2D0CFFCB0A /* HZTabbarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HZTabbarItem.swift; path = taoBaoTabBar/Classes/HZTabbarItem.swift; sourceTree = "<group>"; };
+		2ACF85696E9647D41905FE485E7C1800 /* Pods-taoBaoTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taoBaoTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B99ED314A3AB0305281DE35210B12C3 /* Pods-taoBaoTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-taoBaoTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		34785395810F61B07EDB754916AF605F /* Pods-taoBaoTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taoBaoTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		388B6614A79C273B33AC548B1514A919 /* Pods-taoBaoTabBar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-taoBaoTabBar_Example"; path = Pods_taoBaoTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE8A8E9FB6BF5F797C635B769291272 /* Pods-taoBaoTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taoBaoTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E420E06E521BF32D21C5DD229C98B60 /* taoBaoTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = taoBaoTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		55A3B4B7B43E03A8A49E78356D382778 /* Pods-taoBaoTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taoBaoTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56330EE0DF5C2BB417C2B75E7F027988 /* Pods-taoBaoTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taoBaoTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB839E1A545C050A6965754BD211B29 /* taoBaoTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = taoBaoTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		619F4212E975BD589B7A2A441C53007A /* Pods-taoBaoTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taoBaoTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		72AA20FD3870EC41C776D2A74A35DE33 /* taoBaoTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = taoBaoTabBar.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		779454E9C847B00917620CC90B9B2177 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8FF126F01D1B7B33F6F2DB39E617B813 /* taoBaoTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = taoBaoTabBar.modulemap; sourceTree = "<group>"; };
+		949A9D0FB7C17F70D147685E01608FD6 /* HZTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HZTabBarViewController.swift; path = taoBaoTabBar/Classes/HZTabBarViewController.swift; sourceTree = "<group>"; };
+		987F2D18381DEBB02DEE67EA8855EDC6 /* Pods-taoBaoTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taoBaoTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9B15BCCB9C0E3C720B971A0CFFD8EC47 /* Pods-taoBaoTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taoBaoTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCA3E1FA6BB9E1E1E2AFB476D0DBE6B /* taoBaoTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "taoBaoTabBar-Info.plist"; sourceTree = "<group>"; };
+		A76D0F8C81DF52A1EA960713A19374C5 /* taoBaoTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "taoBaoTabBar-prefix.pch"; sourceTree = "<group>"; };
+		A76FCC9B6C9B131EF86ADB1EC2D248A0 /* HZBaseTabbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HZBaseTabbar.swift; path = taoBaoTabBar/Classes/HZBaseTabbar.swift; sourceTree = "<group>"; };
+		A8EF07E30A3339CE60C52532627409ED /* Pods-taoBaoTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-taoBaoTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		A8FABA7A86D1A2C9E86390489B4AF69F /* Pods-taoBaoTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taoBaoTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE669507178CE194D35F94892909D186 /* Pods-taoBaoTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taoBaoTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B65A008079DCB9DAC36C6B8EC2FC10BE /* taoBaoTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "taoBaoTabBar-umbrella.h"; sourceTree = "<group>"; };
+		B8B9448B06BA7F4C42174AC082B2EEBE /* Pods-taoBaoTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taoBaoTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		CCF2DEC954027148B5D462F9CBCB3280 /* Pods-taoBaoTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taoBaoTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8644C75C294E9B2F55D75E732BC31A8 /* taoBaoTabBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = taoBaoTabBar; path = taoBaoTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93D05009DA9D7A0842BAE86A232564B /* Pods-taoBaoTabBar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-taoBaoTabBar_Tests"; path = Pods_taoBaoTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC026D7AD315F7A7970B2F30788D0CD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074B22FE444070B8A1E6500FC0791344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B175E7B6F9DB0969559F7790A894047 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176EAD1E23E5A01DCB2ABA4465EA7E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8071AB1D93FBB8DB0D1BE8D57589A9A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8E9CB75E56A988A5882126C64BFDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2830CACB1F3AA16577B7F8C205388F88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF93749D01C5958D13DF3431A53A950 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FF126F01D1B7B33F6F2DB39E617B813 /* taoBaoTabBar.modulemap */,
+				187ECBC9569F03AE7AD3F57C388CBBCD /* taoBaoTabBar-dummy.m */,
+				9DCA3E1FA6BB9E1E1E2AFB476D0DBE6B /* taoBaoTabBar-Info.plist */,
+				A76D0F8C81DF52A1EA960713A19374C5 /* taoBaoTabBar-prefix.pch */,
+				B65A008079DCB9DAC36C6B8EC2FC10BE /* taoBaoTabBar-umbrella.h */,
+				4E420E06E521BF32D21C5DD229C98B60 /* taoBaoTabBar.debug.xcconfig */,
+				72AA20FD3870EC41C776D2A74A35DE33 /* taoBaoTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/taoBaoTabBar";
+			sourceTree = "<group>";
+		};
+		1FF6FFB5C029D43A5B794A956B2C924C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388B6614A79C273B33AC548B1514A919 /* Pods-taoBaoTabBar_Example */,
+				F93D05009DA9D7A0842BAE86A232564B /* Pods-taoBaoTabBar_Tests */,
+				E8644C75C294E9B2F55D75E732BC31A8 /* taoBaoTabBar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB27F2014D57FB93185C3D9AA4443CF /* Pods-taoBaoTabBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF07E30A3339CE60C52532627409ED /* Pods-taoBaoTabBar_Tests.modulemap */,
+				CCF2DEC954027148B5D462F9CBCB3280 /* Pods-taoBaoTabBar_Tests-acknowledgements.markdown */,
+				A8FABA7A86D1A2C9E86390489B4AF69F /* Pods-taoBaoTabBar_Tests-acknowledgements.plist */,
+				2ACF85696E9647D41905FE485E7C1800 /* Pods-taoBaoTabBar_Tests-dummy.m */,
+				B8B9448B06BA7F4C42174AC082B2EEBE /* Pods-taoBaoTabBar_Tests-Info.plist */,
+				987F2D18381DEBB02DEE67EA8855EDC6 /* Pods-taoBaoTabBar_Tests-umbrella.h */,
+				55A3B4B7B43E03A8A49E78356D382778 /* Pods-taoBaoTabBar_Tests.debug.xcconfig */,
+				9B15BCCB9C0E3C720B971A0CFFD8EC47 /* Pods-taoBaoTabBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-taoBaoTabBar_Tests";
+			path = "Target Support Files/Pods-taoBaoTabBar_Tests";
+			sourceTree = "<group>";
+		};
+		35356E336705E0E34550499B110A1103 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B10E91ED1AC9CF676836039CAD2B7D07 /* taoBaoTabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		686630CC88B8D022201478FB7CB2610D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E942E6B197A26BB492BB7C12EDD31DFA /* Pods-taoBaoTabBar_Example */,
+				2AB27F2014D57FB93185C3D9AA4443CF /* Pods-taoBaoTabBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		981550893E9FF336271F5604F0000F7E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC026D7AD315F7A7970B2F30788D0CD3 /* LICENSE */,
+				779454E9C847B00917620CC90B9B2177 /* README.md */,
+				5BB839E1A545C050A6965754BD211B29 /* taoBaoTabBar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B10E91ED1AC9CF676836039CAD2B7D07 /* taoBaoTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A76FCC9B6C9B131EF86ADB1EC2D248A0 /* HZBaseTabbar.swift */,
+				1E41B39AA611448C59B23E2D0CFFCB0A /* HZTabbarItem.swift */,
+				949A9D0FB7C17F70D147685E01608FD6 /* HZTabBarViewController.swift */,
+				981550893E9FF336271F5604F0000F7E /* Pod */,
+				0DF93749D01C5958D13DF3431A53A950 /* Support Files */,
+			);
+			name = taoBaoTabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				35356E336705E0E34550499B110A1103 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1FF6FFB5C029D43A5B794A956B2C924C /* Products */,
+				686630CC88B8D022201478FB7CB2610D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E942E6B197A26BB492BB7C12EDD31DFA /* Pods-taoBaoTabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B99ED314A3AB0305281DE35210B12C3 /* Pods-taoBaoTabBar_Example.modulemap */,
+				AE669507178CE194D35F94892909D186 /* Pods-taoBaoTabBar_Example-acknowledgements.markdown */,
+				3DE8A8E9FB6BF5F797C635B769291272 /* Pods-taoBaoTabBar_Example-acknowledgements.plist */,
+				1917449868417CF8B83DAF086FC818E1 /* Pods-taoBaoTabBar_Example-dummy.m */,
+				34785395810F61B07EDB754916AF605F /* Pods-taoBaoTabBar_Example-frameworks.sh */,
+				0C7E575BB26F5FDC1B510CB376DA2068 /* Pods-taoBaoTabBar_Example-Info.plist */,
+				1C007E6B00D7A25E418C14262D3C4D06 /* Pods-taoBaoTabBar_Example-umbrella.h */,
+				56330EE0DF5C2BB417C2B75E7F027988 /* Pods-taoBaoTabBar_Example.debug.xcconfig */,
+				619F4212E975BD589B7A2A441C53007A /* Pods-taoBaoTabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-taoBaoTabBar_Example";
+			path = "Target Support Files/Pods-taoBaoTabBar_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		102F7BE879B7E5DC34C8B50CD9C67E22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925FDB9F6975B689C27CC10F97A1A3E6 /* Pods-taoBaoTabBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EAFCB24D2502E0AAF4EA48CFE2C0EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EAD5BC1021E415D2F11C573E28530A /* Pods-taoBaoTabBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E71A5C30270DEC02E8CDE0C66DC710 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BAB2F9F1ACC82D7A0B8ABAD84F648A /* taoBaoTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D8AAE461950097A9E3361CA6232C79E /* Pods-taoBaoTabBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15BE1B607F92F88ED2D2B1168CF9148 /* Build configuration list for PBXNativeTarget "Pods-taoBaoTabBar_Tests" */;
+			buildPhases = (
+				102F7BE879B7E5DC34C8B50CD9C67E22 /* Headers */,
+				460AE9BC0391007F76A05147719FB251 /* Sources */,
+				176EAD1E23E5A01DCB2ABA4465EA7E0C /* Frameworks */,
+				76D9EA0028CBCF6688968C1DB2931004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53349D9A54815843D6F708FBC55B5EB /* PBXTargetDependency */,
+			);
+			name = "Pods-taoBaoTabBar_Tests";
+			productName = Pods_taoBaoTabBar_Tests;
+			productReference = F93D05009DA9D7A0842BAE86A232564B /* Pods-taoBaoTabBar_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AD03D368E391AAD8FFE346E18A9E34E /* Pods-taoBaoTabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59DCA973C45F52F56CD00CDB6F66562 /* Build configuration list for PBXNativeTarget "Pods-taoBaoTabBar_Example" */;
+			buildPhases = (
+				13EAFCB24D2502E0AAF4EA48CFE2C0EE /* Headers */,
+				E0DCFB98B0877D464E279257F6487F9D /* Sources */,
+				DD8E9CB75E56A988A5882126C64BFDA4 /* Frameworks */,
+				B6CE8A2A198639029228363773B76745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D113F25EB65207FD306E8ACC0495CF /* PBXTargetDependency */,
+			);
+			name = "Pods-taoBaoTabBar_Example";
+			productName = Pods_taoBaoTabBar_Example;
+			productReference = 388B6614A79C273B33AC548B1514A919 /* Pods-taoBaoTabBar_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3717B8490A88490F84995B0BFC83880 /* taoBaoTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82D689D4330F25E7179DD8E5C1A7E8F /* Build configuration list for PBXNativeTarget "taoBaoTabBar" */;
+			buildPhases = (
+				F7E71A5C30270DEC02E8CDE0C66DC710 /* Headers */,
+				A645A1BE5C78AE1BEB82EB78D17C185F /* Sources */,
+				074B22FE444070B8A1E6500FC0791344 /* Frameworks */,
+				D0278A9D923702386F761620551D0E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taoBaoTabBar;
+			productName = taoBaoTabBar;
+			productReference = E8644C75C294E9B2F55D75E732BC31A8 /* taoBaoTabBar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FF6FFB5C029D43A5B794A956B2C924C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD03D368E391AAD8FFE346E18A9E34E /* Pods-taoBaoTabBar_Example */,
+				3D8AAE461950097A9E3361CA6232C79E /* Pods-taoBaoTabBar_Tests */,
+				F3717B8490A88490F84995B0BFC83880 /* taoBaoTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D9EA0028CBCF6688968C1DB2931004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CE8A2A198639029228363773B76745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0278A9D923702386F761620551D0E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460AE9BC0391007F76A05147719FB251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C85A1386A1E65098911FC0F1E1716FB /* Pods-taoBaoTabBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A645A1BE5C78AE1BEB82EB78D17C185F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB969D9CB4BA107CA8D437B9B2BCD612 /* HZBaseTabbar.swift in Sources */,
+				B478CF61590A48908611BD675B9050C9 /* HZTabbarItem.swift in Sources */,
+				2F5D9B8FA7DF357F4919597AA8B6AC65 /* HZTabBarViewController.swift in Sources */,
+				FABA389AFC510481547F1E3D3B329860 /* taoBaoTabBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DCFB98B0877D464E279257F6487F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BE9059AE78784E7967F5409F52CCBC /* Pods-taoBaoTabBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D113F25EB65207FD306E8ACC0495CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = taoBaoTabBar;
+			target = F3717B8490A88490F84995B0BFC83880 /* taoBaoTabBar */;
+			targetProxy = B0A3F9E35FD35DDB02D218A16D9CA11E /* PBXContainerItemProxy */;
+		};
+		B53349D9A54815843D6F708FBC55B5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-taoBaoTabBar_Example";
+			target = 7AD03D368E391AAD8FFE346E18A9E34E /* Pods-taoBaoTabBar_Example */;
+			targetProxy = 80952AC83580A0E9710A04E5C5E6B8C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B4529D3E21FC91C95F45922A521E57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AA20FD3870EC41C776D2A74A35DE33 /* taoBaoTabBar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/taoBaoTabBar/taoBaoTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/taoBaoTabBar/taoBaoTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/taoBaoTabBar/taoBaoTabBar.modulemap";
+				PRODUCT_MODULE_NAME = taoBaoTabBar;
+				PRODUCT_NAME = taoBaoTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11815B15F1F61CC5920D3F056EBAB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A3B4B7B43E03A8A49E78356D382778 /* Pods-taoBaoTabBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-taoBaoTabBar_Tests/Pods-taoBaoTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-taoBaoTabBar_Tests/Pods-taoBaoTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44AAA2B9556E1F0281A999ADD42AE5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56330EE0DF5C2BB417C2B75E7F027988 /* Pods-taoBaoTabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-taoBaoTabBar_Example/Pods-taoBaoTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-taoBaoTabBar_Example/Pods-taoBaoTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		593C4C54EA44284CE899B7FF4FCA1CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B15BCCB9C0E3C720B971A0CFFD8EC47 /* Pods-taoBaoTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-taoBaoTabBar_Tests/Pods-taoBaoTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-taoBaoTabBar_Tests/Pods-taoBaoTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB9AB74345FC413D39D58B010A84CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619F4212E975BD589B7A2A441C53007A /* Pods-taoBaoTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-taoBaoTabBar_Example/Pods-taoBaoTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-taoBaoTabBar_Example/Pods-taoBaoTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F685CAE52EE91DFD2D46A9358828436A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E420E06E521BF32D21C5DD229C98B60 /* taoBaoTabBar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/taoBaoTabBar/taoBaoTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/taoBaoTabBar/taoBaoTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/taoBaoTabBar/taoBaoTabBar.modulemap";
+				PRODUCT_MODULE_NAME = taoBaoTabBar;
+				PRODUCT_NAME = taoBaoTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82D689D4330F25E7179DD8E5C1A7E8F /* Build configuration list for PBXNativeTarget "taoBaoTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F685CAE52EE91DFD2D46A9358828436A /* Debug */,
+				0B4529D3E21FC91C95F45922A521E57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59DCA973C45F52F56CD00CDB6F66562 /* Build configuration list for PBXNativeTarget "Pods-taoBaoTabBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AAA2B9556E1F0281A999ADD42AE5B5 /* Debug */,
+				EB9AB74345FC413D39D58B010A84CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15BE1B607F92F88ED2D2B1168CF9148 /* Build configuration list for PBXNativeTarget "Pods-taoBaoTabBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11815B15F1F61CC5920D3F056EBAB5C6 /* Debug */,
+				593C4C54EA44284CE899B7FF4FCA1CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
